@@ -184,6 +184,9 @@ padding-left: 5px;
     font-size: 14px;
     border: none;
     border-radius: 5px;
+    position: absolute;
+    bottom: -40px;
+    left: -40px;
 }
 
 .btn-spn{
@@ -193,18 +196,19 @@ padding-left: 5px;
 .love-img{
     position:relative;
 }
-
-.experiance-btn{
-    position: absolute;
-    bottom: -40px;
-    left: -40px;
+.loving-img{
+   width: 550px;
+   height: 700px;
 }
+
+
 /* fects section */
 
 .fects-sec{
     width: 80%;
     margin: 0 auto;
 }
+
 .fects{
   display: flex;
   flex-direction: column;
@@ -355,9 +359,6 @@ padding-left: 5px;
         align-items: center;
         gap: 20px;
     }
-    .com-name{
-        font-size: 10px;
-    }
     .menu-list ul {
         list-style: none;
         display: flex;
@@ -365,6 +366,19 @@ padding-left: 5px;
         justify-content: center;
         align-items: center;
         gap: 30px;
-       
     }
+    .feature-container, .feature-img, .love-sec, .fects, .ratings, .sponsor-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .loveing-img{
+        margin-right: 30px;
+    }
+    .sponsor-title{
+        font-size: 35px;
+    }
+
 }
