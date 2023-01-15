@@ -1,3 +1,5 @@
+
+/* -------- The screen size that I have designed is 34 mm width--------------- */
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +10,7 @@
 /* -----Nav manu style-----  */
 header{
     width: 100%;
-    background-color:rgba(255, 144, 14, 0.1);
+    background-color:rgba(247, 214, 176, 0.1);
 }
 
 .nav-menu{
@@ -23,8 +25,8 @@ padding: 50px 200px;
     justify-content: center;
     align-items: center;
     gap: 20px;
-
 }
+
 .menu-list ul li {
     
 font-size: medium;
@@ -67,6 +69,7 @@ border-radius: 5px;
 
 }
 /* feature section style */
+
 .feature-section{
 width: 80%;
 margin: 0 auto;
@@ -83,26 +86,26 @@ padding: 60px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .feature-content{
     display: flex;
     flex-direction: column;
     gap: 40px;
     justify-content: left;
-
 }
 
 .feature-title{
     font-weight: bold;
     font-size: 50px;
-
 }
+
 .feature-desc{
     color: #727272;
 font-weight: 400;
 font-size: 14px;
-
 }
+
 .feature-btn{
     color: white;
 background-color: #FF900E;
@@ -112,6 +115,7 @@ font-size: 14px;
 border: none;
 border-radius: 5px;
 }
+
 /* love-enjoy */
 
 .love-enjoy-sec{
@@ -120,16 +124,22 @@ border-radius: 5px;
     padding: 60px;
     padding-bottom: 100px;
 }
+
+.love-top{
+
+}
 .love-sec{
     display: flex;
     justify-content: center;
     gap: 60px;
 }
+
 .enjoy-sec{
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
+
 .love-title{
     font-weight:700;
     font-size: 30px;
@@ -137,31 +147,35 @@ border-radius: 5px;
     margin-bottom: 10px;
     padding-left: 5px;
 }
+
 .enjoy-desc{
     color: #727272;
     font-weight: 400;
     font-size: 14px;
 }
+
 .love-enjoy{
     display: flex;
     flex-direction: column;
     justify-content: left;
     gap: 10px;
-    border: 0.5px solid gray;
-    
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
 }
+
 .love-title1{
     font-weight:700;
     font-size: 20px;
     margin-bottom: 10px;
 padding-left: 5px;
 }
+
 .enjoy-desc1{
     color: #727272;
     font-weight: 400;
     font-size: 14px;
     padding-left: 5px;
 }
+
 .experiance-btn{
     color: white;
     background-color: #FF900E;
@@ -171,49 +185,58 @@ padding-left: 5px;
     border: none;
     border-radius: 5px;
 }
+
 .btn-spn{
     font-size: 50px;
 }
+
 .love-img{
     position:relative;
-    background-image: url("./images/architect.png");
 }
+
 .experiance-btn{
     position: absolute;
     bottom: -40px;
     left: -40px;
 }
 /* fects section */
+
 .fects-sec{
     width: 80%;
     margin: 0 auto;
-    padding: 60px; 
 }
 .fects{
   display: flex;
   flex-direction: column;
   gap: 40px; 
 }
+
 .fects-title{
     font-weight: bold;
     font-size: 40px;
 }
+
 .fects-desc{
     color: #727272;
     font-weight: 400;
     font-size: 14px;
 }
+
+/* ratings section */
+
 .ratings-sec{
     width: 80%;
     margin: 0 auto;
-    padding: 60px; 
+    padding: 60px;
 }
+
 .ratings{
     display: flex;
     justify-content:space-between;
     align-items: center;
     gap: 30px;
 }
+
 .rating-sec{
     border: 1px solid  #FF900E;
     display: flex;
@@ -224,12 +247,124 @@ padding-left: 5px;
     padding: 30px;
     border-radius: 5px;
 }
+
+.rating-sec :hover{
+    transform: scale(1.2);
+    transition: .5s;
+}
+
 .ratings-title{
     font-weight: bold;
     font-size: 30px;  
 }
+
 .ratings-desc{
     color: #727272;
     font-weight: 400;
     font-size: 14px;
+}
+
+/* sponsor section */
+
+.sponsor-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px; 
+}
+
+.sponsor-content{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sponsor-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+}
+
+.sponsor-title{
+    font-weight: bold;
+    font-size: 40px; 
+}
+
+.sponsor-desc{
+    color: #727272;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* footer style */
+
+.social{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #FF900E;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.social-title{
+    font-weight: bold;
+    font-size: 40px; 
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.icons i{
+    color: ;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.copyright{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(247, 214, 176, 0.1);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.footer-desc{
+    color: #727272;
+    font-weight: 400;
+    font-size: 14px; 
+}
+
+/* style end for laptop view */
+
+/* style for mobile screen  */
+
+@media screen and (max-width: 576px){
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .com-name{
+        font-size: 10px;
+    }
+    .menu-list ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+       
+    }
 }
