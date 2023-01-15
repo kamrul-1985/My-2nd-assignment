@@ -113,10 +113,12 @@ border: none;
 border-radius: 5px;
 }
 /* love-enjoy */
+
 .love-enjoy-sec{
     width: 80%;
     margin: 0 auto;
     padding: 60px;
+    padding-bottom: 100px;
 }
 .love-sec{
     display: flex;
@@ -127,4 +129,107 @@ border-radius: 5px;
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+.love-title{
+    font-weight:700;
+    font-size: 30px;
+    border-left: 3px solid  #FF900E;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+.enjoy-desc{
+    color: #727272;
+    font-weight: 400;
+    font-size: 14px;
+}
+.love-enjoy{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 10px;
+    border: 0.5px solid gray;
+    
+}
+.love-title1{
+    font-weight:700;
+    font-size: 20px;
+    margin-bottom: 10px;
+padding-left: 5px;
+}
+.enjoy-desc1{
+    color: #727272;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 5px;
+}
+.experiance-btn{
+    color: white;
+    background-color: #FF900E;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+}
+.btn-spn{
+    font-size: 50px;
+}
+.love-img{
+    position:relative;
+
+}
+.experiance-btn{
+    position: absolute;
+    bottom: -40px;
+    left: -40px;
+}
+/* fects section */
+.fects-sec{
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px; 
+}
+.fects{
+  display: flex;
+  flex-direction: column;
+  gap: 40px; 
+}
+.fects-title{
+    font-weight: bold;
+    font-size: 40px;
+}
+.fects-desc{
+    color: #727272;
+    font-weight: 400;
+    font-size: 14px;
+}
+.ratings-sec{
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px; 
+}
+.ratings{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 30px;
+}
+.rating-sec{
+    border: 1px solid  #FF900E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 40px;
+    border-radius: 5px;
+}
+.ratings-title{
+    font-weight: bold;
+    font-size: 30px;  
+}
+.ratings-desc{
+    color: #727272;
+    font-weight: 400;
+    font-size: 14px;
 }
